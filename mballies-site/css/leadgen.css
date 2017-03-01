@@ -1,0 +1,88 @@
+.text, .select {
+  width: 90% !important;
+  height: 40px !important;
+  background-color: #FFF !important;
+  background-image: none !important;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s !important;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+  border: 1px solid lightgray;
+  padding: 0 5px;
+}
+.question .text {
+  width: 97.5% !important;
+}
+
+.email .text, .select {
+  width: 95% !important;
+}
+textarea {
+  width: 100%;
+}
+.select {
+  height: 34px;
+} 
+
+.form-field.half {
+    width: 50%;
+    float: left;
+}
+.form-field.quarter {
+    width: 25%;
+    float: left;
+}
+
+form.form p.required label, form.form span.required label {
+    padding-left: 0!important;
+}
+p.form-field {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: 400;
+    display: block;
+    font-family: 'Open Sans';
+}
+
+.pd-checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.pd-checkbox label {
+  margin: 0 0 0 10px;    
+  line-height: 1.5em !important;
+}
+/* Error */
+p.error.no-label {
+  display: none;
+}  
+p.error label {
+    color: red !important;
+}
+
+input[type="submit"] {
+    background-color: #0071ce;
+    border-color: #0063b5;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-transform: none;
+    width: 90%; 
+    margin-bottom: 25px;
+  }
+input[type="submit"]:hover {
+  color: #fff;
+  background-color: #00559b;
+  border-color: #004177;
+}
+body { 
+    overflow: hidden;
+    background-color: transparent !important;
+}
+form#pardot-form {
+    background: white;
+}
