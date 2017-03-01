@@ -35,3 +35,4 @@ exclude:
   - Gemfile.lock
 sass:
   style: compressed
+  sass_dir: _sass /hoosegow/.bundle/ruby/2.3.0/gems/jekyll-theme-primer-0.1.7/_sass
