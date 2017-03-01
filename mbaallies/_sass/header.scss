@@ -1,0 +1,31 @@
+/************ Header *************/
+$nav-height: 148px;
+$nav-height-md: 98px;
+$nav-height-xs: 65px;
+header {
+    .navbar-default {
+        .navbar-nav > li {
+            & > a {
+                font-size: $font-size-base;
+            }
+            & > a[target="_blank"] { 
+                color: $gray-lighter;
+            }   
+        }
+    }
+}
+
+@media only screen and ( max-width: 767px ) {
+   
+}
+
+@media only screen and (max-width : 620px ){
+  
+}
+
+@media only screen and (max-width : 420px){
+#top.navbar-nav { 
+   
+}
+}
+

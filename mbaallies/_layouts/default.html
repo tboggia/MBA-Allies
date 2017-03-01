@@ -17,8 +17,8 @@
 	<!--  LESS STYLESHEET (INCLUDES BOOTSTRAP)  -->
 	<link rel="stylesheet" href="/css/sites.css">
 </head>
-<body class="{% if page.pageClass %}{{page.pageClass}}{% else %}{{layout.pageClass}}{% endif %}"> 
-    <!--  *** HEADER START ****  -->
+	<body class="{% if page.pageClass %}{{page.pageClass}}{% else %}{{layout.pageClass}}{% endif %}"> 
+	    <!--  *** HEADER START ****  -->
 	<header role="banner" class="navbar-nav navbar-fixed-top" id="top">
 		<!--  ****  NAVBAR START  ****   -->
 		<nav role="navigation" class="navbar-default">
@@ -45,8 +45,13 @@
 		<!--  ****  NAVBAR END  ****  -->
 	</header>
 	<!--  *** HEADER END ****  -->
+	<div id="hero">
+	
+	</div>
 	<!--  ****  CONTENT START  ****  -->
-	{{ content }}
+	<main role="main">
+		{{ content }}
+	</main>
 	<!--  ****  CONTENT END  **** -->
 	<!--  ****  FOOTER START  ****  -->
 	<footer role="contentinfo">
