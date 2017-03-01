@@ -1,0 +1,18 @@
+$icon-container: 160px;
+.icons-row {
+    justify-content: space-around;
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+
+	.icon-container {
+	    border: 7px solid $brand-primary;
+	    border-radius: $icon-container;
+	    width: $icon-container;
+	    height: $icon-container;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	}
+}

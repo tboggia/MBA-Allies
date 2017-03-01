@@ -1,0 +1,128 @@
+/* *********  H definitions  ********* */
+
+h1, h2:first-child {
+    margin-top: 0px !important;
+}
+
+h3,
+.h3 { 
+    
+}
+
+h4,
+.h4 {
+    
+}
+
+/* *********  Type styles  ********* */
+.lead {
+    font-weight: 600;
+}
+a { 
+   
+}
+.pointer {
+    cursor: pointer;
+}
+
+ul + p {
+    padding-top: 10px;
+}
+li { 
+	font-size: $font-size-base * .85; 
+    // padding-left: 0px;
+	p {
+	    margin-bottom: 0;
+	    font-weight: 500;
+	}
+}
+.flex {
+    display: flex;
+    .column {
+        flex: 1;
+    }
+}
+.flex-bottom { margin-top: auto }
+
+.marginless-p {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.gray {  color: $gray;  }
+.gray-darker {  color: $gray-darker;  }
+.gray-dark {  or: $gray-dark;  }
+.gray {  color: $gray;  }
+.gray-light {  color: $gray-light;  }
+.gray-lighter {  color: $gray-lighter;  }
+
+/* *********  Structure  ********* */
+
+body {
+    
+} 
+
+
+/************ Media queries for responsive content *************/
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+		/*  FONTS: Reduced Size  */
+	h2, .h2 {font-size: 180% !important; } 
+	h4, .h4  {font-size: 112% !important; }
+	h5, .h5  {font-size: 105% !important; }
+}
+@media only screen and (max-width : 514px){
+
+}
+@media only screen and (max-width : 620px){
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        .center-column {
+            margin: 20px 0;
+        }
+    }
+    
+}
+
+/* Small Devices, Tablets */
+
+
+@media only screen and (max-width: 420px) {
+  
+}
+@media only screen and (max-width : 767px){
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px){
+	
+}
+
+@media only screen and (max-width : 1084px){
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+    
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1400px){ 
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 2000px){ 
+
+}
+
+/* Very Large Devices, Wide Screens */
+@media only screen and (min-width : 2000px){
+
+}
