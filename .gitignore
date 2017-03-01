@@ -1,4 +1,4 @@
 _site/
-.scss
+*.scss
 .sass-cache/
 .jekyll-metadata
