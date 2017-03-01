@@ -25,6 +25,7 @@ twitter_username: ""
 encoding: "utf-8"
 
 # Build settings
+destination: "../mballies-site"
 markdown: kramdown
 kramdown:
     auto_ids: false
